@@ -1,13 +1,14 @@
 {
   "name": "create-agent",
-  "version": "0.0.3",
+  "type": "module",
+  "version": "0.0.4",
   "description": "create an agent",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-agent": "bin/create-agent"
+    "create-agent": "bin/create-agent.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "aam",
     "create-agent",
     "agent"
-  ]
+  ],
+  "dependencies": {
+    "nostr-tools": "^2.10.4"
+  }
 }
